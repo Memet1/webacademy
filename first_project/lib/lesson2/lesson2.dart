@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print('Введить номер для тижня від 1 до 7');
+  print('Введить номер дня тижня від 1 до 7');
 
   String? input = stdin.readLineSync();
 
@@ -29,9 +29,11 @@ void main() {
 
       print ('Ви обрали $dayName');
     }else {
+      main();
       print ('Оберіть день від 1 до 7');
     }
   }else {
+    main ();
     print ('Введить число від 1 до 7');
   }
 
