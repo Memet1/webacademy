@@ -1,4 +1,3 @@
-import 'dart:async';
 void main() {
 Student student1 = Student('Сергій', 'Програмування','Flutter developer');
 Student student2 = Student('Кристина', 'Програмування', 'C++');

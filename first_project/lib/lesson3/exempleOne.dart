@@ -43,7 +43,7 @@ void main (){
   //Додавання списку в новий список
   List<String> newList = List<String>.from(newWhereList);
   print('Виводимо назви по одному');
-  newList.forEach((e){
-    print('$e');  
-  });
+  for (var e in newList) {
+    print(e);  
+  }
 }

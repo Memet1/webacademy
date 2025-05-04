@@ -15,7 +15,7 @@ class Animal {
   Animal.newBorn(this.type) : age = 0;
 
   void checkAge(){
-    if (this.age > 2){
+    if (age > 2){
       print('Ваш улюблинець дорослий');
     } else {
       print('Ваш улюблинець ще малий');

@@ -13,9 +13,11 @@ mixin Playing {
 }
 
 class Piano with Playing{
+  @override
   void play(sound);
 }
 
 class Guitar with Playing{
+  @override
   void play(sound);
 }

@@ -42,7 +42,7 @@ class Rectangle2 extends Equatable{
   final double width;
   final double height;
 
-  Rectangle2(
+  const Rectangle2(
     this.width,
     this.height
   );
